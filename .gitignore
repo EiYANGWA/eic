@@ -15,6 +15,10 @@ dist
 dist-ssr
 *.local
 
+# Vite / TypeScript specific
+.vite
+.tsbuildinfo
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -25,6 +29,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# System Files (แนะนำให้เพิ่มบรรทัดนี้ไปเผื่อด้วยครับ)
-Thumbs.db
